@@ -9,6 +9,7 @@ mobileApp.tables.add('Playlist'); // Create a table for 'Users' with default set
 mobileApp.tables.add('PlaylistSongs'); // Create a table for 'Users' with default settings
 mobileApp.tables.add('Reviews'); // Create a table for 'Users' with default settings
 mobileApp.tables.add('Songs'); // Create a table for 'Users' with default settings
+mobileApp.tables.add('NewSongs'); // Create a table for 'Users' with default settings
 
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
